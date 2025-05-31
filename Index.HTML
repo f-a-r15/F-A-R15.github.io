@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio | Mundiales de Fútbol</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        img {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            display: block;
+            margin: 20px auto;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        section {
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="historia.html">Historia</a>
+    <a href="galeria.html">Galería</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<main>
+    <h2>Bienvenidos</h2>
+    <p>Esta página reúne información sobre los mundiales de fútbol desde 1930 hasta hoy.</p>
+
+    <!-- Sección Messi -->
+    <section>
+        <h3>Messi, el mejor del mundo</h3>
+        <img 
+            src="https://pbs.twimg.com/media/FMneg5JXEAI_OK9.jpg" 
+            alt="Messi levantando la Copa del Mundo">
+    </section>
+
+    <img src="mundial.jpg" alt="Imagen de un mundial">
+
+    <h3>Historia 	de los Mundiales:</h3>
+    <iframe 
+        width="500" 
+        height="315" 
+        src="https://www.youtube.com/embed/R786spGnzIE" 
+        title="El comienzo de todo" 
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+    <button onclick="history.back()">⬅️ Regresar</button>
+</main>
+
+</body>
+</html>
